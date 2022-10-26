@@ -1,0 +1,93 @@
+.services {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #111;
+  position: relative;
+}
+
+.title {
+  margin-top: 3rem;
+  display: inline-block;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  cursor: default;
+}
+
+.title:after {
+  content: "";
+  background: #facf0f;
+  width: 25%;
+  height: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.title:hover:after {
+  width: 50%;
+}
+.title h3 {
+  font-size: 1.8rem;
+}
+.title h1 {
+  font-size: 4rem;
+}
+
+.will-do-part {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 80%;
+  gap: 40px;
+  margin: 5rem 0;
+}
+
+.design,
+.web-dev,
+.app-dev {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.design p,
+.web-dev p,
+.app-dev p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.icon {
+  width: 20px;
+  color: black;
+}
+
+.services:after {
+  content: "";
+  background-color: #111;
+  width: 80%;
+  height: 2px;
+}
+@media only screen and (max-width: 768px) {
+  .services {
+    margin-top: 0;
+  }
+
+  .app-dev {
+    margin-bottom: 3rem;
+  }
+
+  .will-do-part {
+    display: flex;
+    flex-direction: column;
+  }
+}

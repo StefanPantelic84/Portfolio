@@ -1,0 +1,215 @@
+.home-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: rgb(245, 245, 245);
+  padding-top: 100px;
+  min-height: 80rem;
+}
+
+.kocka1 {
+  background: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: rotate(-25deg);
+  left: 9%;
+  top: 14%;
+}
+
+.kocka2 {
+  background: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 22%;
+  top: 94%;
+  border-radius: 50%;
+}
+.kocka3 {
+  background: black;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  left: 73%;
+  top: 79%;
+  transform: rotate(-20deg);
+}
+.kocka4 {
+  width: 0px;
+  height: 0px;
+  border: 20px solid transparent;
+  border-bottom-color: black;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 77%;
+  top: 11%;
+}
+
+.my-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: -2.5rem;
+  z-index: 1;
+}
+
+.h1-name {
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: #111;
+  font-weight: 800;
+}
+.my-name p {
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.about-me {
+  width: 60%;
+  margin-top: 2rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-me p {
+  width: 80%;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-me button {
+  font-size: 2.2rem;
+  background-color: #facf0f;
+  letter-spacing: 1px;
+  padding: 1.7rem 6rem;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+.about-me button:hover {
+  transform: translateY(-5px);
+}
+.about-me button:visited {
+  color: #111;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 30rem;
+  color: #333;
+}
+
+.arrow p {
+  transform: rotate(90deg);
+  letter-spacing: 4rem;
+  font-size: 1.2rem;
+}
+.arrow-img {
+  margin-top: 13rem;
+}
+
+.arrow-img img {
+  height: 10rem;
+}
+
+.social li {
+  transform: rotate(-90deg);
+  margin: 4rem;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  transition: 1s;
+}
+.social li:hover {
+  background: #facf0f;
+}
+
+.social li a {
+  letter-spacing: 5px;
+  padding: 2px;
+  width: 10px;
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 25rem;
+}
+
+.scroll-down p {
+  transform: rotate(90deg);
+  letter-spacing: 4rem;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.scroll-down-img {
+  margin-top: 120px;
+}
+
+.scroll-down img {
+  height: 100px;
+}
+
+.home-page:after {
+  content: "";
+  background-color: #111;
+  width: 90%;
+  height: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1-name {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-left: 1rem;
+  }
+
+  .about-me p {
+    width: 100%;
+  }
+
+  .about-me button {
+    margin-bottom: 3rem;
+  }
+
+  .arrow {
+    transform: translateX(-120px);
+    text-overflow: hidden;
+    margin-left: 5px;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+
+  .kocka1,
+  .kocka2,
+  .kocka3,
+  .kocka4 {
+    display: none;
+  }
+}

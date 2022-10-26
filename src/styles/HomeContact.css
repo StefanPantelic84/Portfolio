@@ -1,0 +1,70 @@
+.home-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+}
+
+.home-container {
+  width: 80%;
+  height: 90%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-container button {
+  font-size: 2.2rem;
+  background-color: #facf0f;
+  letter-spacing: 1px;
+  padding: 1.7rem 6rem;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  color: #111;
+  font-weight: 700;
+  margin: 3rem 0rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.home-container button:hover {
+  transform: translateY(-5px);
+}
+.home-container button:visited {
+  color: #111;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--white);
+  margin-top: 2rem;
+}
+.help h3 {
+  color: rgb(180, 180, 180);
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.help h1 {
+  padding-bottom: 2rem;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .help h1 {
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .home-container {
+    width: 90%;
+    height: 95%;
+  }
+}

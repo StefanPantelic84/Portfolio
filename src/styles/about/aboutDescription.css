@@ -1,0 +1,85 @@
+.about-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 2.2rem;
+  margin-top: 11rem;
+  margin-bottom: 2rem;
+}
+
+.description {
+  position: relative;
+  width: 50%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0rem 7rem;
+}
+
+.description::after {
+  content: "";
+  background-color: black;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.description h2 {
+  color: #111;
+}
+
+.download {
+  font-size: 2.2rem;
+  background-color: #facf0f;
+  letter-spacing: 1px;
+  padding: 1.7rem 6rem;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+.download:visited {
+  color: #111;
+}
+
+.download:hover {
+  transform: translateY(-5px);
+}
+
+.about-skills-component {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+  }
+  .description {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+  }
+  .about-skills-component {
+    width: 100%;
+  }
+  .description::after {
+    display: none;
+  }
+}

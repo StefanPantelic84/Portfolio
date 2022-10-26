@@ -1,0 +1,106 @@
+.home-about {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 245, 245);
+  color: #111;
+}
+.about {
+  display: flex;
+  width: 55%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+.about p {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.about h1 {
+  font-size: 4rem;
+}
+.about-head {
+  display: inline-block;
+  position: relative;
+  cursor: default;
+}
+.about-head:after {
+  content: "";
+  background-color: #facf0f;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  width: 25%;
+  height: 6px;
+  transition: 0.5s;
+}
+.about-head:hover:after {
+  width: 50%;
+}
+.glasses-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-right: 3rem;
+}
+
+.glasses-image img {
+  border-radius: 50px;
+  rotate: 25deg;
+}
+.button-two {
+  font-size: 2.2rem;
+  background-color: #facf0f;
+  letter-spacing: 1px;
+  padding: 1.7rem 6rem;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  color: #111;
+  font-weight: 700;
+  margin: 3rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+.button-two:hover {
+  transform: translateY(-5px);
+}
+
+.button-two:visited {
+  color: #111;
+}
+
+@media only screen and (max-width: 768px) {
+  .glasses-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin: 3rem 0;
+  }
+
+  .home-about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about {
+    display: flex;
+    width: 80%;
+    padding: 0;
+    gap: 0;
+  }
+  .about p {
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    width: 100%;
+  }
+}
