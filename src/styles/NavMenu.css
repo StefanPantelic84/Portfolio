@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: center;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1px; 
 }
 .navbar-name {
   display: flex;

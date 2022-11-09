@@ -1,6 +1,5 @@
 import React from "react";
 import AboutDescription from "../components/aboutComponents/AboutDescription";
-
 import { useEffect } from "react";
 
 function About() {

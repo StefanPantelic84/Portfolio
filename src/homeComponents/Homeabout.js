@@ -1,5 +1,5 @@
 import React from "react";
-import Glasses from "../assets/glasses.png";
+import Glasses from "../assets/glasses.jpg";
 import { Link } from "react-router-dom";
 
 function Homeabout() {

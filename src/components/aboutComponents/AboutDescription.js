@@ -19,7 +19,7 @@ function AboutDescription() {
           then don't hesitate to contact me.
         </p>
         <a
-          href="https://drive.google.com/file/d/176GBwtXrg1ZJauhZUAU3dyF9Rdw5P7IR/view?usp=sharing"
+          href="https://drive.google.com/file/d/1OhLEduYDhT5jSjOeVhfqJ2D0ePvW2s-m/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
           className="download"

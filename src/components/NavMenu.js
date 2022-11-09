@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdClose, MdMenu } from "react-icons/md";
-import Stefan from "../assets/stefff.png";
+import Stefan from "../assets/stefff.jpg";
 
 function NavMenu() {
   const [showItems, setShowItems] = useState(false);
@@ -19,7 +19,7 @@ function NavMenu() {
         className="mobile-menu-icon"
         onClick={() => setShowItems(!showItems)}
         onKeyDown={() => setShowItems(!showItems)}
-        tabIndex={0} 
+        tabIndex={0}
       >
         <MdMenu />
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import ProjectImg from "../assets/cavinimg.jpg";
+import Small from "../assets/small.jpg";
 
 export default function ProjectItem({
-  img = ProjectImg,
+  img = Small,
   title = "Project Name",
   desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   mylink = "https://github.com/StefanPantelic84", 
