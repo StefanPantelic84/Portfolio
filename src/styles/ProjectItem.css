@@ -20,6 +20,11 @@
   position: relative;
   transition: 0.5s;
 }
+
+.project-item-title span {
+  margin-left:5px;
+}
+
 .project-item-title:hover {
   position: inherit;
   z-index: 100;

@@ -6,10 +6,11 @@ import Pizza from "../Pizza.jpg";
 import Portfolio from "../Portfolio.jpg";
 import Small from "../small.jpg";
 
+
 const projects = [
   {
     id: 1,
-    name: "Alleria",
+    name: "alleria.online",
     desc: "Fully functional and responsive website made in React done for a local massage center in Belgrade. ",
     img: Small,
     mylink: "https://alleria.online/",
