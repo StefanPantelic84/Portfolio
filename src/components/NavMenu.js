@@ -14,6 +14,7 @@ function NavMenu() {
   };
 
   return (
+
     <div className="nav-menu">
       <div
         className="mobile-menu-icon"
@@ -23,7 +24,7 @@ function NavMenu() {
       >
         <MdMenu />
       </div>
-      <section className="navbar-name">
+      <section className="navbar-name"> 
         <img src={Stefan} alt="icon" />
         <p>stefan pantelic</p>
       </section>
@@ -51,6 +52,7 @@ function NavMenu() {
         </li>
       </ul>
     </div>
+
   );
 }
 
