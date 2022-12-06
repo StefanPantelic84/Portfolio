@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  max-width: 2400px;
+  margin:0;
+
 }
 
 html {
@@ -9,6 +11,7 @@ html {
   background: rgb(245, 245, 245);
   font-size: 9px;
   font: #111;
+  margin:auto;
 }
 ul li {
   list-style: none;
@@ -39,3 +42,4 @@ button {
   outline: none;
   white-space: nowrap;
 }
+

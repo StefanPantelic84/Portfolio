@@ -5,6 +5,7 @@
   height: 100%;
   background: rgb(245, 245, 245);
   color: #111;
+
 }
 .about {
   display: flex;
@@ -13,6 +14,7 @@
   align-items: flex-start;
   padding: 3rem;
   gap: 1rem;
+  padding-left:10%;
 }
 
 .about p {
